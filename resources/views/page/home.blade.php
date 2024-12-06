@@ -28,8 +28,6 @@
             <h1 class="text-2xl font-bold">Swapy</h1>
             <nav>
                 <a href="#" class="text-white px-4">Home</a>
-                <a href="/auth/login" class="text-white px-4">Sign In</a>
-                <a href="/auth/register" class="text-white px-4">Sign Up</a>
                 <a href="#list-books" class="text-white px-4">List Books</a>
                 <a href="/page/list" class="text-white px-4">Browse Books</a>
             </nav>

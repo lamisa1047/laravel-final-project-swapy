@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Models\Post;
 use Illuminate\Http\Request;
-
 class PostController extends Controller
 {
 
@@ -22,6 +21,10 @@ class PostController extends Controller
     {
         return view('page.list', ['posts' => Post::all()]);
     }
+    public function home()
+    {
+        return view('page.home',['posts' => Post::all()]);
+    }
     public function delete($id)
 {
     $post = Post::findOrFail($id);
@@ -29,4 +32,5 @@ class PostController extends Controller
 
     return redirect()->route('list');
 }
+
 }
