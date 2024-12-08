@@ -61,7 +61,7 @@
             </div>
 
             <!-- Sign-Up Button -->
-            <button type="submit" class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+            <button type="submit" class="w-full bg-yellow-800 text-white py-2 px-4 rounded-md hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
                 Sign Up
             </button>
         </form>
@@ -69,7 +69,7 @@
         <!-- Optional: Link to Login -->
         <p class="mt-4 text-center text-sm text-gray-600">
             Already have an account?
-            <a href="/auth/login" class="text-blue-600 hover:underline">Sign in</a>
+            <a href="/auth/login" class="text-yellow-800 hover:underline">Sign in</a>
         </p>
     </div>
 
