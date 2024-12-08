@@ -16,7 +16,7 @@
         </div>
         @endif
         @if (session('error'))
-        <div class="bg-green-100 border-l-4 border-green-500 text-green-700 p-4 my-4">
+        <div class="bg-red-100 border-l-4 border-red-500 text-red-700 p-4 my-4">
             <p>{{ session('error') }}</p>
         </div>
         @endif
@@ -57,7 +57,7 @@
         <!-- Optional: Link to Registration -->
         <p class="mt-4 text-center text-sm text-gray-600">
             Don't have an account?
-            <a href="/register" class="text-yellow-600 hover:underline">Sign up</a>
+            <a href="/auth/register" class="text-yellow-600 hover:underline">Sign up</a>
         </p>
     </div>
 </body>

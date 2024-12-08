@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 Route::post('/store', [PostController::class, 'filestore'])->name('store');
 Route::get('/page/list', [PostController::class, 'showlist'])->name('list');
+Route::get('/page/allbooks', [PostController::class, 'allbooks'])->name('allbooks');
 Route::delete('/delete/{id}', [PostController::class, 'delete'])->name('post.delete');
 Route::get('/auth/login', [AuthController::class, 'login'])->name('login');
 Route::post('/auth/login', [AuthController::class, 'loginPost'])->name('login.post');

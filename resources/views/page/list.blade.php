@@ -19,11 +19,13 @@
                     <p class="text-gray-700">Author: {{ $post->author }}</p>
                     <p class="text-gray-500">Condition: {{ $post->condition }}</p>
                     <div class="flex gap-2">
-                    <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg">Swap</button>
+                    <button class="mt-4 bg-yellow-800 text-white py-2 px-4 rounded-lg hover:bg-yellow-600">
+                       <a href="/page/allbooks">Swap</a>
+                    </button>
                     <form action="{{ route('post.delete', $post->id) }}" method="POST">
                     @csrf
                     @method('DELETE')
-                    <button class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg">Delete</button>
+                    <button class="mt-4 bg-yellow-800 text-white py-2 px-4 rounded-lg hover:bg-yellow-600">Delete</button>
                     </form>
                     </div>
                 </div>

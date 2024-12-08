@@ -21,6 +21,10 @@ class PostController extends Controller
     {
         return view('page.list', ['posts' => Post::all()]);
     }
+    public function allbooks()
+    {
+        return view('page.allbooks');
+    }
     public function home()
     {
         return view('page.home',['posts' => Post::all()]);
